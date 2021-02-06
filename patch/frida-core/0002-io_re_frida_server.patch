@@ -14,7 +14,8 @@ index 0b996e96..8dd710e3 100644
 @@ -3,7 +3,7 @@ namespace Frida.Server {
  
  	private const string DEFAULT_LISTEN_ADDRESS = "127.0.0.1";
- 	private const uint16 DEFAULT_LISTEN_PORT = 27042;
+- 	private const uint16 DEFAULT_LISTEN_PORT = 27042;
++	private const uint16 DEFAULT_LISTEN_PORT = 27043;
 -	private const string DEFAULT_DIRECTORY = "re.frida.server";
 +	private static string DEFAULT_DIRECTORY = null;
  	private static bool output_version = false;
