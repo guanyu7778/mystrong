@@ -13,8 +13,8 @@ jobs:
     outputs:
       frida_version: ${{ steps.fridaVersion.outputs.frida_version }}
       upload_url: ${{ steps.createRelease.outputs.upload_url }}
-      user_name: "feicong"
-      user_email: "fei_cong@hotmail.com"
+      user_name: "guanyu"
+      user_email: "157423346@qq.com"
     steps:
       - uses: actions/checkout@v2.3.4
 
